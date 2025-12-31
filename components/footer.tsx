@@ -1,4 +1,4 @@
-import Link from "next/link"
+import Link from "next/link";
 
 export function Footer() {
   return (
@@ -15,7 +15,8 @@ export function Footer() {
               </span>
             </Link>
             <p className="text-muted-foreground max-w-sm mb-6 leading-relaxed">
-              Empowering Nigerians with clarity and tools to navigate the national tax landscape with confidence.
+              Empowering Nigerians with clarity and tools to navigate the
+              national tax landscape with confidence.
             </p>
           </div>
           <div>
@@ -27,7 +28,10 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="#" className="hover:text-primary transition-colors">
+                <Link
+                  href="/education-hub"
+                  className="hover:text-primary transition-colors"
+                >
                   Education Hub
                 </Link>
               </li>
@@ -37,7 +41,10 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="#" className="hover:text-primary transition-colors">
+                <Link
+                  href="/education-hub"
+                  className="hover:text-primary transition-colors"
+                >
                   2026 Reforms
                 </Link>
               </li>
@@ -85,5 +92,5 @@ export function Footer() {
         </div>
       </div>
     </footer>
-  )
+  );
 }

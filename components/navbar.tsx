@@ -27,7 +27,10 @@ export function Navbar() {
           >
             Calculator
           </Link>
-          <Link href="#hub" className="hover:text-primary transition-colors">
+          <Link
+            href="/education-hub"
+            className="hover:text-primary transition-colors"
+          >
             Learn
           </Link>
           <Link
