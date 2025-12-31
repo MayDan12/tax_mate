@@ -51,8 +51,9 @@ export function Hero() {
             <Button
               size="lg"
               className="rounded-full px-8 h-14 text-base font-semibold"
+              onClick={() => (window.location.href = "/education-hub")}
             >
-              Estimate Your Tax <ChevronRight className="ml-2 h-4 w-4" />
+              Education Hub
             </Button>
             {/* <Button
               size="lg"

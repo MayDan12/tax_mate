@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     siteName: "TaxMateNG",
     images: [
       {
-        url: "https://taxmateng.vercel.app/og-image.png",
+        url: "/og-image.jpg",
         width: 1200,
         height: 630,
       },
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     description:
       "Empowering Nigerians with clarity and tools to navigate the national tax landscape with confidence.",
     card: "summary_large_image",
-    images: ["https://taxmateng.vercel.app/og-image.png"],
+    images: ["/og-image.jpg"],
   },
   icons: {
     icon: "/favicon.ico",
