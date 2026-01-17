@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-
+// What a day to go and sleep
 export function Hero() {
   return (
     <section className="pt-32 pb-20 overflow-hidden">
